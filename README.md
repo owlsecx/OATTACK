@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-OWL pentest toolkit — recon, vuln scan, password audit
+OATTACK is a consolidated penetration-testing toolkit that brings reconnaissance, vulnerability scanning, password auditing and web fingerprinting together behind a single interface. It can enumerate subdomains, scan ports with service banners, fingerprint web stacks and inspect SSL/TLS configuration for authorised engagements. Results can be exported to a JSON report for later review or inclusion in a findings package.
 
 ---
 
 ## ✨ Features
 
-- OWL pentest toolkit — recon, vuln scan, password audit
+- Domain reconnaissance: subdomain discovery, port scanning and banner collection
+- Threaded TCP port scanner with service-banner grabbing
+- Web vulnerability scanning for URLs and domains
+- Web fingerprinting to identify server technologies
+- SSL/TLS inspection of a hostname on a configurable port
+- JSON report export of scan results
 
 ---
 
@@ -38,7 +43,10 @@ OWL pentest toolkit — recon, vuln scan, password audit
 ## 🚀 Usage
 
 ```bash
-./OAttack
+./OATTACK -r example.com
+./OATTACK -v https://example.com
+./OATTACK -s example.com --port 443 -o report.json
+./OATTACK --help
 ```
 
 ---
