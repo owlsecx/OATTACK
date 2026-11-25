@@ -43,10 +43,10 @@ OATTACK is a consolidated penetration-testing toolkit that brings reconnaissance
 ## 🚀 Usage
 
 ```bash
-./OATTACK -r example.com
-./OATTACK -v https://example.com
-./OATTACK -s example.com --port 443 -o report.json
-./OATTACK --help
+./OAttack -r example.com
+./OAttack -v https://example.com
+./OAttack -s example.com --port 443 -o report.json
+./OAttack --help
 ```
 
 ---
